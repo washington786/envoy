@@ -1,0 +1,16 @@
+.home-con {
+  background-image: url("https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+.home-card {
+  max-width: 700px;
+  min-width: 700px;
+  width: 100%;
+  background: rgba(125, 217, 87, 0.84);
+  border: none;
+  min-height: 300px;
+  max-height: 300px;
+  height: 100%;
+}

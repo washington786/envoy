@@ -133,7 +133,7 @@ const Clients = () => {
 
 function MainContainer({ children }) {
   return (
-    <div className="container-fluid bg-white min-vh-100 d-flex flex-column">
+    <div className="container-fluid bg-white min-vh-100 d-flex flex-column m-0 p-0">
       {children}
     </div>
   );
@@ -142,7 +142,7 @@ function MainContainer({ children }) {
 const ContentWrapper = ({ children }) => {
   return (
     <>
-      <div className="d-flex position-relative justify-content-center align-content-center py-4 mt-4 bg-transparent">
+      <div className="d-flex container position-relative justify-content-center align-content-center py-4 mt-4 bg-transparent">
         {children}
       </div>
     </>

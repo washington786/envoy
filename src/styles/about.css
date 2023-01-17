@@ -1,0 +1,11 @@
+.a-desc, .a-show-more{
+    font-size: 12px!important;
+    text-align: justify;
+    padding: 0.4rem 1.5rem;
+}
+
+.img-vector{
+    position: sticky;
+    right: 0;
+    bottom: 0;
+}

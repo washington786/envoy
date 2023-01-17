@@ -8,4 +8,9 @@
     position: sticky;
     right: 0;
     bottom: 0;
+    margin-bottom: -4rem;
+    max-width: 450px;
+    min-width: 450px;
+    width: 100%;
+    object-fit: contain!important;
 }

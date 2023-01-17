@@ -3,7 +3,6 @@ import HeaderComponent from "../components/Globals/HeaderComponent";
 import { ContentWrapper, MainContainer } from "./Clients";
 import "../styles/about.css";
 
-import ImgVector from "../assets/vector_1.png";
 import ImgVector2 from "../assets/vector_2.png";
 
 const data = [

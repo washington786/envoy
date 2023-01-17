@@ -6,7 +6,7 @@ import NavLinks from "../Globals/NavLinks";
 const NavBarComponent = () => {
   return (
     <Fragment>
-      <div className="container justify-content-between align-items-center d-flex flex-row py-2 position-sticky">
+      <div className="container justify-content-between align-items-center d-flex flex-row py-2 position-sticky start-0 end-0">
         <BrandComponent />
         <NavLinks />
       </div>

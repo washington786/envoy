@@ -59,7 +59,7 @@ const About = () => {
           {/* <img src={ImgVector} alt={ImgVector} className="img-thumbnail bg-transparent border-0 v-2" /> */}
         </div>
       </ContentWrapper>
-      <div className="svg-con m-0 p-0 position-fixed fixed-bottom">
+      <div className="svg-con m-0 p-0">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#7DD957"

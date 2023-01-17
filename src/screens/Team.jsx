@@ -37,7 +37,7 @@ const Team = () => {
     <MainContainer>
       <HeaderComponent title={'our team'}/>
       <ContentWrapper>
-        <div className="col-md-6 w-75 d-flex align-items-center justify-content-evenly py-4 mt-3">
+        <div className="col-md-6 w-100  d-flex align-items-center justify-content-evenly py-4 mt-3">
           {
             teams.map((team,index)=>{
               const {uri,fullNames} = team;

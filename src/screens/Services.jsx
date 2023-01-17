@@ -42,7 +42,7 @@ const Services = () => {
     <div className="container-fluid bg-light min-vh-100 d-flex flex-column">
       <HeaderComponent title={'services'}/>
 
-      <div className="d-flex align-items-center mt-5 justify-content-evenly">
+      <div className="d-flex align-items-center mt-5 justify-content-evenly container">
         {cardsData.map((card, index) => {
           const { title, lists,color } = card;
           return (

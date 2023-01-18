@@ -39,7 +39,7 @@ const cardsData = [
 
 const Services = () => {
   return (
-    <div className="container-fluid bg-light min-vh-100 d-flex flex-column">
+    <div className="container-fluid bg-white min-vh-100 d-flex flex-column">
       <HeaderComponent title={'services'}/>
 
       <div className="d-flex align-items-center mt-5 justify-content-evenly container">

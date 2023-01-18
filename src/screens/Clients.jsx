@@ -63,7 +63,7 @@ const Clients = () => {
     <MainContainer>
       <HeaderComponent title={"clients"} />
       <ContentWrapper>
-        <div className="row justify-content-between align-items-center">
+        <div className="row justify-content-between align-items-center align-self-sm-center align-self-center align-self-md-center">
           <div className="col-4 position-relative">
             <div
               className="card align-self-end bg-transparent border-0 text-left my-5"
@@ -95,7 +95,7 @@ const Clients = () => {
           </div>
           <div className="col-4 position-relative">
             <div
-              className="card align-self-end  bg-transparent border-0 text-left my-5"
+              className="card align-self-end  bg-transparent border-0 text-end ms-2"
               style={{ width: "25rem" }}
             >
               <ContentCon
@@ -105,7 +105,7 @@ const Clients = () => {
               />
             </div>
             <div
-              className="card align-self-end bg-transparent border-0 text-left my-5"
+              className="card align-self-end bg-transparent border-0 text-end ms-3"
               style={{ width: "25rem" }}
             >
               <ContentCon
@@ -117,7 +117,7 @@ const Clients = () => {
           </div>
         </div>
       </ContentWrapper>
-        <div className="col-md-6 d-flex align-items-center justify-content-evenly w-100">
+        <div className="col-md-6 d-flex align-items-center justify-content-evenly w-100 container">
           {
             clients.map((client,index)=>{
               const {uri} = client;

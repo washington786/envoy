@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 import BrandComponent from "../Globals/BrandComponent";
+import FooterComponent from "../Globals/Footer";
 import NavLinks from "../Globals/NavLinks";
 
 const NavBarComponent = () => {
@@ -14,6 +15,7 @@ const NavBarComponent = () => {
       <div className="container-fluid m-0 p-0">
         <Outlet />
       </div>
+      <FooterComponent/>
     </Fragment>
   );
 };

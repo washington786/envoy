@@ -17,8 +17,8 @@ const data = [
 ];
 
 const About = () => {
-  const [isOverView, setOverView] = useState(false);
-  const [isStory, setStory] = useState(false);
+  const [isOverView, setOverView] = useState(true);
+  const [isStory, setStory] = useState(true);
 
   const showOverView = () => {
     setOverView(!isOverView);
@@ -56,7 +56,6 @@ const About = () => {
             alt={ImgVector2}
             className="img-thumbnail bg-transparent border-0 img-vector"
           />
-          {/* <img src={ImgVector} alt={ImgVector} className="img-thumbnail bg-transparent border-0 v-2" /> */}
         </div>
       </ContentWrapper>
       <div className="svg-con m-0 p-0">

@@ -7,6 +7,7 @@ import About from "../screens/About";
 import Services from "../screens/Services";
 import Team from "../screens/Team";
 import Clients from "../screens/Clients";
+import Contact from "../screens/Contact";
 
 const NavigationRouter = () => {
   return (
@@ -19,6 +20,7 @@ const NavigationRouter = () => {
             <Route element={<Services/>} path='/services' />
             <Route element={<Clients/>} path='/clients' />
             <Route element={<Team/>} path='/team' />
+            <Route element={<Contact/>} path='/contact' />
           </Route>
         </Routes>
       </BrowserRouter>

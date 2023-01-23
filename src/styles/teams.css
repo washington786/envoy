@@ -2,3 +2,16 @@
     font-size: 12px!important;
     text-align: center!important;
 }
+.t-overlay-con{
+    z-index: 100;
+}
+
+.c-description{
+    text-transform: lowercase;
+    text-align: justify!important;
+}
+
+.t-close{
+    font-size: 1.7rem;
+    margin: 0px 1rem;
+}

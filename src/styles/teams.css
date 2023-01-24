@@ -1,24 +1,65 @@
-.co-f{
-    font-size: 12px!important;
-    text-align: center!important;
+.co-f {
+  font-size: 12px !important;
+  text-align: center !important;
 }
-.t-overlay-con{
-    z-index: 100;
-}
-
-.c-description{
-    text-transform: lowercase;
-    text-align: justify!important;
-    font-size: 12px!important;
+.t-overlay-con {
+  z-index: 100;
 }
 
-.t-close{
-    font-size: 1.7rem;
-    margin: 0px 1rem;
+.c-description {
+  text-transform: lowercase;
+  text-align: justify !important;
+  font-size: 12px !important;
 }
-.t-modal-img{
-    max-width: 200px;
-    min-width: 200px;
+
+.t-close {
+  font-size: 1.7rem;
+  margin: 0px 1rem;
+}
+.t-modal-img {
+  max-width: 200px;
+  min-width: 200px;
+  width: 100%;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .t-groups {
+    display: block !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center !important;
+  }
+  .t-card {
+    max-width: 20rem;
+    min-width: 20rem;
     width: 100%;
-    align-self: center;
+    margin: 2rem auto !important;
+    min-height: 400px !important;
+    max-height: 400px !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
+  .t-groups {
+    display: grid !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 31px;
+    grid-row-gap: 18px;
+  }
+  .t-card {
+    max-width: 24rem;
+    min-width: 24rem;
+    width: 100%;
+    margin: 2rem auto !important;
+    min-height: 450px !important;
+    max-height: 450px !important;
+    height: 100% !important;
+  }
 }

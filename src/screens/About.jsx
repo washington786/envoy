@@ -67,6 +67,7 @@ const About = () => {
           d="M0,256L30,240C60,224,120,192,180,154.7C240,117,300,75,360,90.7C420,107,480,181,540,224C600,267,660,277,720,272C780,267,840,245,900,218.7C960,192,1020,160,1080,133.3C1140,107,1200,85,1260,74.7C1320,64,1380,64,1410,64L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
       </svg>
+      <svg className="svg-two-sm p-0 m-0 d-xl-none d-md-none d-lg-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7dd957" fill-opacity="1" d="M0,256L34.3,245.3C68.6,235,137,213,206,218.7C274.3,224,343,256,411,224C480,192,549,96,617,90.7C685.7,85,754,171,823,192C891.4,213,960,171,1029,133.3C1097.1,96,1166,64,1234,48C1302.9,32,1371,32,1406,32L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
       </div>
     </MainContainer>
   );
@@ -74,7 +75,7 @@ const About = () => {
 
 function ContentsWrapper({ title, description, isOverview, onClick }) {
   return (
-    <div className="col-6 bg-light py-2 px-1 align-align-items-start justify-content-start align-align-self-start d-flex flex-column rounded-1 my-3">
+    <div className="col-lg-6 col-xxl-8 bg-light py-2 px-1 align-align-items-start justify-content-start align-align-self-start d-flex flex-column rounded-1 my-3">
       <span className="text-secondary fw-bold fs-5 text-capitalize text-center">
         {title}
       </span>

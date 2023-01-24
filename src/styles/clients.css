@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    .c-clients-con {
+      /* display: block !important; */
+      align-items: center !important;
+      justify-content: center !important;
+      align-content: center !important;
+      margin: 0 auto!important;
+      display: grid!important;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 31px;
+      grid-row-gap: 18px;
+    }
+    .prev-client-img{
+        max-width: 250px;
+        min-width: 250px;
+        width: 100%;
+        object-fit: contain;
+        margin: 0 auto!important;
+    }
+  }
+  
+  @media screen and (min-width: 770px) and (max-width: 1200px) {
+    .c-clients-con {
+      display: grid !important;
+      align-items: center !important;
+      justify-content: center !important;
+      align-content: center !important;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 31px;
+      grid-row-gap: 18px;
+    }
+    .t-card {
+      max-width: 24rem;
+      min-width: 24rem;
+      width: 100%;
+      margin: 2rem auto !important;
+      min-height: 450px !important;
+      max-height: 450px !important;
+      height: 100% !important;
+    }
+  }
+  

@@ -77,7 +77,7 @@ const Team = () => {
     <MainContainer>
       <HeaderComponent title={"our team"} />
       <ContentWrapper>
-        <div className="col-md-6 w-100  d-flex align-items-center justify-content-evenly py-4 mt-3">
+        <div className="col-md-6 col-lg-8 col-xxl-9 w-100 mx-lg-2 d-flex align-items-center justify-content-evenly py-4 mt-3 t-groups">
           {teams.map((team, index) => {
             const { uri, fullNames, id } = team;
             return (
@@ -103,7 +103,7 @@ function CardWrapper({ uri, name, OnClick, id, visible }) {
   return (
     <Fragment>
       <div
-        className="card border-1"
+        className="card border-1 col-md-6 col-xxl-8 t-card mx-md-2"
         style={{
           width: "16rem",
           minHeight: 350,
@@ -130,8 +130,8 @@ function CardWrapper({ uri, name, OnClick, id, visible }) {
 function Overlay({ uri, name, description,click }) {
   return (
     <div className="container min-vh-100 d-flex align-items-center justify-content-center">
-      <div className="container w-75 bg-light t-overlay-con rounded-2 py-4 d-flex flex-column">
-        <i class="bi bi-x-lg text-end t-close" onClick={click}></i>
+      <div className="container w-75 bg-light t-overlay-con rounded-2 py-5 d-flex flex-column h-75">
+        <i class="bi bi-x-lg text-end t-close my-2" onClick={click}></i>
         <div className="row">
           <div className="col-5 align-align-self-center d-flex flex-column">
             <img src={uri} alt={uri} className="card-image-top t-modal-img" />

@@ -14,3 +14,24 @@
     width: 100%;
     object-fit: contain!important;
 }
+
+@media screen and (max-width: 768px) {
+    .img-vector{
+        display: none!important;
+        height: 130px;
+        margin-right: -4rem;
+    }
+    .svg-con{
+        position: sticky!important;
+        bottom: 10;
+        margin-bottom: -20rem;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .img-vector{
+        display: none!important;
+        height: 130px;
+        margin-right: -4rem;
+    }
+}

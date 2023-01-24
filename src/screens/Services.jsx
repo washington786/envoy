@@ -42,13 +42,13 @@ const Services = () => {
     <div className="container-fluid bg-white min-vh-100 d-flex flex-column">
       <HeaderComponent title={'services'}/>
 
-      <div className="d-flex align-items-center mt-5 justify-content-evenly container">
+      <div className="container-sm d-flex align-items-center mt-5 justify-content-evenly container s-con">
         {cardsData.map((card, index) => {
           const { title, lists,color } = card;
           return (
             <>
               <ItemCard
-                serviceClass={`align-self-center card1 d-flex`} key={index}
+                serviceClass={`align-self-center card1 d-flex s-card`} key={index}
                 bg={color}
               >
                 <CardContent title={title} list={lists}/>
@@ -88,19 +88,6 @@ function ListWrapper({ list}) {
   );
 }
 
-// function SubListWrapper({sub}){
-//   return (
-//     <>
-//     {
-//       sub.map((sb,index)=>{
-//         return(
-//           <li className="list-group-item list-group-numbered fw-light list-group-flush" key={index}>{sb}</li>
-//         )
-//       })
-//     }
-      
-//     </>
-//   )
-// }
+
 
 export default Services;

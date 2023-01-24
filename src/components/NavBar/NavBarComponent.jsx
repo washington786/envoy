@@ -7,8 +7,8 @@ import NavLinks from "../Globals/NavLinks";
 const NavBarComponent = () => {
   return (
     <Fragment>
-      <div className="container-fluid d-flex flex-column bg-light sticky-lg-top sticky-md-top bg-light">
-        <div className="container justify-content-between align-items-center d-flex flex-row py-2">
+      <div className="container-fluid d-flex flex-column bg-light sticky-lg-top sticky-md-top bg-light w-100">
+        <div className="container justify-content-between align-items-center d-flex flex-row py-2 w-100">
           <NavWrapper />
         </div>
       </div>
@@ -28,5 +28,7 @@ function NavWrapper() {
     </>
   );
 }
+
+
 
 export default NavBarComponent;

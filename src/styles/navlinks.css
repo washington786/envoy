@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+    .n-links{
+        display: none!important;
+    }
+    .n-btn{
+        display: none!important;
+    }
+
+    .n-custom{
+        display: flex;
+        flex-direction: column!important;
+        position: absolute!important;
+        top: 5rem;
+        height: 100%;
+        min-height: 200px;
+        max-height: 200px;
+    }
+}

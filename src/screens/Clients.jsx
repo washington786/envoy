@@ -64,7 +64,7 @@ const Clients = () => {
       <HeaderComponent title={"clients"} />
       <ContentWrapper>
         <div className="row justify-content-between align-items-center align-self-sm-center align-self-center align-self-md-center">
-          <div className="col-4 position-relative">
+          <div className="col-4 position-relative ">
             <div
               className="card align-self-end bg-transparent border-0 text-left my-5"
               style={{ width: "25rem" }}
